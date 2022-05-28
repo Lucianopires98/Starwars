@@ -1,0 +1,168 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.caixa-header {
+ display: flex;
+ align-items: center;
+ justify-content: center; 
+ background-image: url("./img/logo.png");
+ background-repeat: no-repeat;
+ background-size: contain;
+ width: 100%;
+}
+
+.mascarado {
+ position: relative;
+ left: 30vw;
+ bottom: 1vh;
+ width: 980px;
+ z-index: 2;
+}
+ 
+.img-star{
+ width: 380px;
+}
+
+.star {
+position: relative;
+right: 35vw;
+bottom: 1vh;
+}
+
+.img-wars{
+ width: 380px;
+}
+
+.wars {
+ position: relative;
+ right: 14vw;
+ bottom: 1vh;
+}
+
+.img-legiao {
+ width: 150px;
+}
+
+.legiao {
+ position: relative;
+ right: 28vw;
+ top: 26vh;
+}
+
+.estrutura{
+ display: flex;
+ align-items: center;
+ width: 100%;
+ }
+ 
+
+.img-robot{
+ width: 567px;
+}
+
+.robot{
+ position: relative;
+ bottom: 56vh;
+ z-index: 0;
+}
+
+.card-vermelho{
+ position: absolute;
+ right: 62vw;
+ top: 85vh;
+ z-index: 3;
+}
+
+.img-card{
+  width: 260px;
+}
+
+.img-texto{
+ width: 600px;
+ position: relative;
+ left: 8vw;
+ bottom: 85vh;
+}
+
+.dartrey{
+ position: relative;
+ right: 68vw;
+ top: 44vh;
+ 
+}
+
+.line{
+    position: absolute;
+    left: 3vw;
+    width: 1000px;
+    height: 5px;
+    border-top: 3px solid rgb(102, 100, 100);
+}
+
+
+.img-dart {
+ width: 610px;
+ position: relative;
+ right: 4vw;
+ top: 3vh;
+ padding: 10px;
+ z-index: 3;
+}
+
+.menu{
+ position: relative;
+ left: 15vw;
+ bottom: 70vh;
+ font-size: 20px;
+ line-height: 30px;
+ text-align: end;
+ text-transform: uppercase;
+ font-family: Arial, sans-serif;
+}
+
+.menu p{
+  margin-top: 6px;
+}
+
+.strong{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+strong{
+  font-weight: 800;
+}
+
+.menu p:hover{
+  position: relative;
+  z-index: 4;
+  background-color: coral;
+  color: white;
+}
+
+
+.img-rey{
+ width: 310px;  
+ padding: 10px;
+ position: relative;
+ left: 57vw;
+ bottom: 810px;
+ z-index: 3;
+}
+
+h1{
+  font-size: 40px;
+  color: white;
+}
+
+
+.atributos{
+  position: relative;
+  bottom: 89vh;
+  background-color: rgb(34, 32, 32);
+  width: 100%;
+  height: 1800px;
+}
