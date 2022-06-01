@@ -4,7 +4,7 @@ padding: 0;
 box-sizing: border-box;
 }
 
-.caixa-header {
+.box-header {
  display: flex;
  align-items: center;
  justify-content: center; 
@@ -14,16 +14,16 @@ box-sizing: border-box;
  width: 100%;
 }
 
-.mascarado {
+.mask {
  position: relative;
  left: 30vw;
  bottom: 1vh;
- width: 980px;
+ width: 60rem;
  z-index: 2;
 }
  
-.img-star{
- width: 380px;
+.star img {
+ width: 378px;
 }
 
 .star {
@@ -32,8 +32,8 @@ right: 35vw;
 bottom: 1vh;
 }
 
-.img-wars{
- width: 380px;
+.wars img {
+ width: 378px;
 }
 
 .wars {
@@ -42,127 +42,481 @@ bottom: 1vh;
  bottom: 1vh;
 }
 
-.img-legiao {
+.legion img {
  width: 150px;
 }
 
-.legiao {
+.legion {
  position: relative;
  right: 28vw;
  top: 26vh;
 }
 
-.estrutura{
- display: flex;
- align-items: center;
+.box-main {
+ background-image: url(./img/robot.png);
  width: 100%;
- }
- 
-
-.img-robot{
- width: 567px;
-}
-
-.robot{
+ height: 80rem;
+ background-size: contain;
+ background-repeat: no-repeat;
  position: relative;
- bottom: 56vh;
- z-index: 0;
+ bottom: 10rem; 
 }
 
-.card-vermelho{
+.card-red {
  position: absolute;
- right: 62vw;
- top: 85vh;
- z-index: 3;
+ top: -2rem;
+ z-index: 2;
+ left: 11rem;
 }
 
-.img-card{
-  width: 260px;
+.card-red img {
+  width: 20rem;
 }
 
-.img-texto{
- width: 600px;
- position: relative;
- left: 8vw;
- bottom: 85vh;
+.card-text {
+  position: absolute;
+  top: 16rem;
+  left: 39rem;
 }
 
-.dartrey{
- position: relative;
- right: 68vw;
- top: 44vh;
- 
+.card-text img {
+  width: 650px;
 }
 
-.line{
-    position: absolute;
-    left: 3vw;
-    width: 1000px;
-    height: 5px;
-    border-top: 3px solid rgb(102, 100, 100);
+.line {
+ width: 66rem;
+ height: 3px;
+ background-color: rgb(37, 36, 36);
+ position: absolute;
+ left: 14rem; 
+ top: 35rem;
 }
 
-
-.img-dart {
- width: 610px;
- position: relative;
- right: 4vw;
- top: 3vh;
- padding: 10px;
- z-index: 3;
+.dart {
+  position: absolute;
+  top: 40rem;
+  left: 15rem;
+  z-index: 2;
 }
 
-.menu{
- position: relative;
- left: 15vw;
- bottom: 70vh;
- font-size: 20px;
- line-height: 30px;
- text-align: end;
- text-transform: uppercase;
- font-family: Arial, sans-serif;
+.dart img {
+ width: 680px;
 }
 
-.menu p{
-  margin-top: 6px;
+.menu {
+  position: absolute;
+  top: 50rem;
+  left: 45rem;
+  text-transform: uppercase;
+  text-align: end;
+  font-size: 18px;
+  font-family: arial, sans-serif;
 }
 
-.strong{
+.menu h2 {
   font-size: 35px;
-  font-weight: bold;
+  width: 271px;
+  margin-left: 45px;
+  line-height: 1;
 }
 
-strong{
-  font-weight: 800;
+ .menu p {
+  padding-top: 20px;
 }
 
-.menu p:hover{
-  position: relative;
-  z-index: 4;
-  background-color: coral;
+.menu strong{
+  font-weight: bolder;
+}
+
+ .menu p:hover {
+  background-color: orangered;
   color: white;
+  cursor: pointer;
+} 
+
+.rey {
+  position: absolute;
+  left: 64rem;
+  top: 44rem;
+  z-index: 2;
 }
 
+.rey img {
+  width: 325px;
+}
 
-.img-rey{
- width: 310px;  
- padding: 10px;
+.hierarchy {
+ background-color: rgb(24, 23, 23);
+ width: 100%;
+ height: 120rem;
  position: relative;
- left: 57vw;
- bottom: 810px;
- z-index: 3;
+ bottom: 10rem;
+ display: flex;
 }
 
-h1{
-  font-size: 40px;
+.hyerarchy, h3 {
+  color: white;
+  font-family: arial, sans-serif;
+  position: relative;
+  left: 8rem;
+  top: 10rem;
+  text-transform: uppercase;
+}
+
+
+.power img {
+ width: 625px;
+}
+
+.power {
+  position: relative;
+  top: 14rem;
+  right: 4rem;
+}
+
+.power:hover {
+  background: url(./img/novos\ graficos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 625px;
+  height: 381px;
+  cursor: pointer;
+} 
+
+
+.stormtrooper img {
+  width: 300px;
+  height: 192px;
+}
+
+.stormtrooper {
+  position: relative;
+  top: 14rem;
+  left: -4rem;
+}
+
+.stormtrooper:hover {
+  background: url(./img/novos\ graficos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 192px;
+  cursor: pointer;
+}
+
+
+.war img {
+  width: 290px;
+  height: 192px;
+}
+
+.war {
+  position: relative;
+  top: 14rem;
+  left: -4rem;
+}
+
+.war:hover {
+  background: url(./img/novos\ graficos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 290px;
+  height: 192px;
+  cursor: pointer;
+}
+
+.aircraft img {
+ width: 300px;
+ height: 189px;
+}
+
+.aircraft {
+  position: relative;
+  top: 26rem;
+  left:-41rem;
+}
+
+.aircraft:hover {
+  background: url(./img/novos\ graficos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 189px;
+  cursor: pointer;
+}
+
+.scout-trooper img {
+  width: 292px;
+  height: 189px;
+}
+
+.scout-trooper {
+  position: relative;
+  top: 26rem;
+  left:-41rem;
+}
+
+.scout-trooper:hover {
+  background: url(./img/novos\ graficos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 292px;
+  height: 189px;
+  cursor: pointer;
+}
+
+
+.patent img {
+ width: 1220px;
+}
+
+.patent {
+  position: relative;
+  top: 45rem;
+  right: 117rem;
+}
+
+.rule {
+  position: relative;
+  bottom: 38rem;
+  left: 41rem;
+  color: white;
+  width: 595px;
+  opacity: 0.5;
+}
+
+.play {
+ position: relative;
+ bottom: 22rem;
+ text-align: center;
+ font-size: 30px;
+ color: white;
+ font-family: arial, sans-serif;
+ text-transform: uppercase;
+}
+
+.play h4:hover {
+  cursor: pointer;
+}
+
+.box-footer {
+  width: 100%;
+  height: 50rem;
+}
+
+
+.captain-phasma {
+  position: absolute;
+  top: 219rem;
+  left: 4rem;
+}
+
+.captain-phasma img {
+  width: 340px;
+}
+
+.btn-01 {
+  position: absolute;
+  left: 28rem;
+  top: 240rem;
+  font-family: arial, sans-serif;
+}
+
+.btn-01 button {
+  width: 160px;
+  padding: 6px 0px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+}
+
+.btn-01 p {
+  width: 116px;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.btn-01 h4 {
+  font-size: 28px;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+}
+
+.line-01 {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  width: 95px;
+  height: 4px;
+  background-color: rgb(37, 36, 36);
+}
+
+.btn-01 .line-01:hover, button:hover {
+  background-color: orangered;
+  cursor: pointer;
+}
+
+
+.btn-02 {
+  position: absolute;
+  left: 47rem;
+  top: 240rem;
+  font-family: arial, sans-serif;
+}
+
+.btn-02 button {
+  width: 160px;
+  padding: 6px 0px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+}
+
+.btn-02 p {
+  width: 74px;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.btn-02 h4 {
+  font-size: 28px;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+
+.line-02 {
+   margin-top: 1rem;
+   margin-left: 2rem;
+   width: 95px;
+   height: 4px;
+   background-color: rgb(37, 36, 36);
+}
+
+
+.btn-02 .line-02:hover, button:hover {
+  background-color: orangered;
+  cursor: pointer;
+}
+
+
+.btn-03 {
+  position: absolute;
+  left: 67rem;
+  top: 239.5rem;
+  font-family: arial, sans-serif;
+}
+
+.btn-03 button {
+  width: 160px;
+  padding: 6px 0px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+}
+
+
+.btn-03 p {
+  width: 72px;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.btn-03 h4 {
+  font-size: 32px;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+
+.line-03 {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  width: 85px;
+  height: 4px;
+  background-color: rgb(37, 36, 36);
+}
+
+.btn-03 .line-03:hover, button:hover {
+  background-color: orangered;
+  cursor: pointer;
+}
+
+
+.box-orange {
+  position: absolute;
+  top: 260rem;
+  width: 900px;
+  height: 42rem;
+  background-color: #ff5a56;
+  font-family: arial, sans-serif;
+}
+
+
+.box-orange h4 {
+  margin-top: 6rem;
+  margin-left: 10rem;
+  font-size: 30px;
+  text-transform: uppercase;
   color: white;
 }
 
+.box-orange p {
+  margin-top: 3rem;
+  margin-left: 10rem;
+  width: 395px;
+  color: white;
+}
 
-.atributos{
-  position: relative;
-  bottom: 89vh;
-  background-color: rgb(34, 32, 32);
-  width: 100%;
-  height: 1800px;
+.box-orange img {
+ width: 200px;
+}
+
+.google {
+  margin-top: 2rem;
+  margin-left: 9.8rem;
+}
+
+.google:hover {
+  cursor: pointer;
+}
+
+.apple {
+  margin-top: -4rem;
+  margin-left: 24rem;
+}
+
+.apple:hover {
+  cursor: pointer;
+}
+
+.line-orange {
+  margin-top: 3rem;
+  margin-left: 10rem;
+  width: 430px;
+  height: 3px;
+  background-color: rgba(194, 81, 40, 0.801);
+}
+
+.starwars {
+  margin-top: 3rem;
+  margin-left: 9rem;
+}
+
+.malgus {
+  position: absolute;
+  top: 254.5rem;
+  left: 50rem;
+}
+
+.malgus img {
+ width: 540px;
 }
